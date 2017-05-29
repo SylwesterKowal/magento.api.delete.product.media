@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <api>
+        <resources>
+            <deleteproductmedia_api translate="title" module="deleteproductmedia">
+                <title>Myapi</title>
+                <acl>deleteproductmedia/api</acl>
+                <model>deleteproductmedia/api</model>
+                <methods>                    
+						<deleteallproductmedia translate="title" module="deleteproductmedia">
+							<title>Delete All Product Media</title>
+							<acl>deleteproductmedia/deleteallproductmedia</acl>
+						</deleteallproductmedia>
+                </methods>
+            </deleteproductmedia_api>
+        </resources>
+        <acl>
+            <resources>
+                <deleteproductmedia translate="title" module="deleteproductmedia">
+                    <title>DeleteProductMedia</title>
+                    <sort_order>2000</sort_order>                    
+					<deleteallproductmedia translate="title" module="deleteproductmedia">
+                        <title>Delete All Product Media</title>
+                    </deleteallproductmedia>
+                </deleteproductmedia>
+            </resources>
+        </acl>
+    </api>
+</config>

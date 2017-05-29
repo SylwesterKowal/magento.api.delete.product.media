@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Wm21w_DeleteProductMedia>
+      <version>0.1.0</version>
+    </Wm21w_DeleteProductMedia>
+  </modules>
+  <global>
+    <helpers>
+      <deleteproductmedia>
+        <class>Wm21w_DeleteProductMedia_Helper</class>
+      </deleteproductmedia>
+    </helpers>
+	<models>
+	  <deleteproductmedia>
+		<class>Wm21w_DeleteProductMedia_Model</class>
+		<resourceModel>deleteproductmedia_mysql4</resourceModel>
+	  </deleteproductmedia>
+	</models>
+  </global>
+</config> 
